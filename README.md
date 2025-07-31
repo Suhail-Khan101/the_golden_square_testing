@@ -36,7 +36,12 @@ git clone https://github.com/Suhail-Khan101/the_golden_square_testing.git
 cd the_golden_square_testing
 ```
 
-2. Install dependencies:
+2. Quick setup (recommended):
+```bash
+python setup.py
+```
+
+3. Or install dependencies manually:
 ```bash
 pip install -r requirements.txt
 ```
@@ -59,6 +64,19 @@ python -m pytest tests/test_fizzbuzz.py -v
 ```
 
 ## 💡 Usage Examples
+
+### Quick Start
+Run the setup script to get started immediately:
+```bash
+python setup.py
+```
+
+Or see all examples in action:
+```bash
+python examples.py
+```
+
+### Individual Module Usage
 
 ### FizzBuzz
 ```python
